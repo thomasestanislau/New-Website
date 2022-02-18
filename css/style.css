@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-image: url('../imagens/capa.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 90vh;
+    max-height: 500px;
+    padding: 20px 2%;
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+header nav{
+    float: right;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 0 14px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/*.logo{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    float: left;
+}
+*/
+
+.tela1{
+    margin: 120px 300px;
+    float: right;
+    max-width: 600px;
+}
+
+.tela1 h2{
+    font-weight: normal;
+    color: white;
+    font-size: 35px;
+}
+
+.tela1 p{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.sec1{
+    width: 100%;
+    padding: 0 2%;
+    background-color: #472562;
+    height: 350px;
+}
+
+.sec1 .container{
+    max-width: 1000px;
+    height: calc(100% + 30px);
+
+}
+
+.textosec1{
+    float: left;
+    position: relative;
+    left: 65px;
+    color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.textosec1 h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.textosec1 p{
+    margin-top: 5px;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.textosec1 li{
+    font-size: 15px;
+    list-style: inside;
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+    padding-top: 10px;
+
+}
+
+.botao{
+    background-color: #FF603D;
+    width: 155px;
+    height: 44px;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+   
+    padding-top: 10px;
+}
+
+.mobile{
+    background-image: url('../imagens/device.png');
+    float: right;
+    background-size: 100% 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    height: 385px;
+    margin-top: -35px; 
+}
+
+.sec2 .container{
+    max-width: 1000px;
+}
+
+.sec2{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 35px 2%;
+}
+
+.sec2 h2{
+    
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sec2 p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+}
+
+.sec3{
+    width: 100%;
+}
+
+.part1{
+    width: 50%;
+    float: left;
+    padding: 70px 0 90px 0;
+    background-color: #835FA7;
+    color: white;
+    height: 250px;
+}
+
+.wrap{
+    max-width: 400px;
+    float: right;
+    padding-right: 30px;
+}
+
+.part1 h2{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.part1 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.part2{
+    width: 50%;
+    float: left;
+    padding: 70px 0 90px 0;
+    background-color: rgb(233, 220, 220);
+    color: black;
+    height: 250px;
+}
+
+.about{
+    float: left;
+    padding-left: 25px;
+    
+}
+
+.titulo{
+    float: left;
+    width: 100%;
+}
+
+.wrap-titulo{
+    float: left;
+    padding-right: 18px;
+}
+
+.titulo h2{
+    font-size: 20px;
+    padding-right: 20px;
+    color: #232323;
+    font-weight: normal;
+}
+
+.titulo p{
+    font-size: 13px;
+    font-style: italic;
+    color: #232323;
+    font-weight: 300;
+}
+
+.img-autor{
+    float: left;
+    width: 50px;
+    background-image: url(../imagens/thomas.jpg);
+    background-size: 100%;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    top: -2px;
+}
+
+.texto-autor{
+    float: left;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.slider{
+    float: left;
+    margin-top: 10px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.slider span{
+    background-color: grey;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+
+.sec4{
+    background-color: #472563;
+    padding: 55px 0;
+    height: 550px;
+}
+
+.formulario{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.formulario h2{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+}
+
+.formulario form input{
+    width: 90%;
+    max-width: 480px;
+    margin-top: 8px;
+    height: 50px;
+    padding-left: 5px;
+    line-height: 50px;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+.formulario form textarea{
+    margin-top: 8px;
+    max-width: 480px;
+    border: 2px solid rgb(200, 200, 200);
+    width: 90%;
+    padding-left: 5px;
+    line-height: 50px;
+}
+
+.formulario form div{
+    margin-top: 8px;
+
+}
+
+.map-wrapper{
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+   
+}
+
+.map-wrapper h2{
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.map-wrapper2{
+    width: 80%;
+    max-width: none;
+    position: relative;
+    margin-top: 5px;
+    padding-top: 80%;
+    display: inline-block;
+}
+
+.map-wrapper3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.map{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+.footer{
+    padding: 40px 2%;
+    background-color: #192123;
+    width: 100%;
+
+}
+
+.footer p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+
+
+
+/*Media queries*/
+
+@media screen and (max-width: 896px){
+
+    .mobile{
+        display: none;
+    }
+
+    .sec1{
+        height: auto;
+        padding: 40px 2%;
+        text-align: center;
+    }
+
+    .textosec1{
+        float: none;
+        margin-top: 0;
+        width: 100%;
+        padding-left: 0;
+        display: inline-block;
+        position: static; 
+    }
+
+    .textosec1 ul li{
+      float: none;
+      text-align: left;
+    }
+    
+    .textosec1 ul{
+        display: inline-block;
+    }
+
+    .botao{
+            display: inline-block;
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        padding: 20px 2%;
+    
+    }
+
+    .tela1{
+        float: none;
+        margin: 120px 0;
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec2 h2{
+    
+        font-size: 20px;
+        font-weight: normal;
+        padding: 8px 50px;
+    }
+}
+
+
+@media screen and (max-width: 826px){
+    .part1{
+        padding-left: 2%;
+    }
+}
+
+ 
+@media screen and (max-width: 725px){
+
+    .part1{
+        width: 100%;
+        float: none;
+        padding: 20px 50px;
+        height: auto;
+      
+    }
+
+    .wrap{
+        float: none;
+        padding: 20px 30px;
+ 
+    }
+
+    .part2{
+        width: 100%;
+        padding: 20px 50px;
+        height: auto;
+       
+    }
+
+    .slider{
+        padding: 10px 20px;
+    }
+
+    .sec4 .container{
+        text-align: center;
+    }
+
+    .sec4{
+        height: 800px;
+    }
+
+    .map-wrapper{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .formulario{
+        width: 100%;
+        float: none;
+    }
+
+    .footer{
+        width: 100%;
+        text-align: center;
+       
+    }
+
+
+}  
